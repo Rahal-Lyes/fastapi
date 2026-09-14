@@ -6,6 +6,6 @@ books = [
     {"name": "C++"},
     {"name": "C#"}
 ]
-@app.get("/api")
+@app.get("/")
 async def get_books():
   return books
